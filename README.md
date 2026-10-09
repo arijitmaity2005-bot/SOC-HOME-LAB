@@ -119,19 +119,16 @@ and Windows virtual machines act as monitored endpoints.
 The screenshot below shows the Ubuntu virtual machine used for the Wazuh
 server/manager environment.
 
-{=html}
+
 <p align="center">
   
-<img src="screenshots/01-wazuh-server.jpg" alt="Wazuh Server VM" width="950"> {=html}
-{=html}
+<img src="screenshots/01-wazuh-server.jpg" alt="Wazuh Server VM" width="950">
+
 </p>
 
-{=html}
+  
 <p align="center">
-
-<b>{=html}Figure 1 --- Wazuh Server VM running in VMware WorkstationPro </b>
-{=html}
-  {=html}
+<b>Figure 1 --- Wazuh Server VM running in VMware WorkstationPro </b>
 </p>
 
 **What this proves:** The lab infrastructure was built using a dedicated
@@ -159,18 +156,16 @@ The dashboard provided visibility into areas such as:
 
 ### Evidence --- Wazuh Overview
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/02-wazuh-overview.jpg" alt="Wazuh Overview Dashboard" width="950">{=html}
-{=html}
+<img src="screenshots/02-wazuh-overview.jpg" alt="Wazuh Overview Dashboard" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 2 --- Wazuh Overview dashboard</b> {=html}
-   {=html}
+<b>Figure 2 --- Wazuh Overview dashboard</b>
 </p>
 
 **What this proves:** The Wazuh SIEM interface was successfully deployed
@@ -189,19 +184,18 @@ Two endpoints were enrolled with the Wazuh Manager.
 
 ### Evidence --- Active Wazuh Agents
 
-{=html}
+
 <p align="center">
 
- <img src="screenshots/03-endpoints.jpg" alt="Wazuh Endpoints" width="950"> {=html}
-   {=html}
+ <img src="screenshots/03-endpoints.jpg" alt="Wazuh Endpoints" width="950"> 
 </p>
 
-   {=html}
+  
 <p align="center">
 
- <b> {=html}Figure 3 --- Windows and Linux endpoints visible in
-Wazuh</b>{=html}
-   {=html}
+ <b> Figure 3 --- Windows and Linux endpoints visible in
+Wazuh</b>
+   
 </p>
 
 **What this proves:** Both monitored endpoints were enrolled and
@@ -228,19 +222,17 @@ The screenshot shows:
 
 ### Evidence --- Windows Sysmon Service
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/04-windows-sysmon-service.jpg" alt="Windows Sysmon Service" width="950">{=html}
-{=html}
+<img src="screenshots/04-windows-sysmon-service.jpg" alt="Windows Sysmon Service" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 4 --- Sysmon service running on the Windows
-endpoint</b>{=html}
-{=html}
+<b>Figure 4 --- Sysmon service running on the Windows
+endpoint</b>
 </p>
 
 **What this proves:** Sysmon was installed, configured to start
@@ -265,19 +257,17 @@ The collected telemetry contains system-event information such as:
 
 ### Evidence --- Linux Sysmon Configuration and Validation
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/05-linux-sysmon.jpg" alt="Linux Sysmon" width="950">{=html}
-{=html}
+<img src="screenshots/05-linux-sysmon.jpg" alt="Linux Sysmon" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 5 --- Linux Sysmon configuration validation and
-generated telemetry</b>{=html}
-{=html}
+<b>Figure 5 --- Linux Sysmon configuration validation and
+generated telemetry</b>
 </p>
 
 **What this proves:** Sysmon for Linux was configured successfully and
@@ -285,19 +275,17 @@ was producing system telemetry.
 
 ### Evidence --- Linux Telemetry
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/15-linux-telemetry.jpg" alt="Linux Sysmon Telemetry" width="950">{=html}
-{=html}
+<img src="screenshots/15-linux-telemetry.jpg" alt="Linux Sysmon Telemetry" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 6 --- Linux endpoint telemetry collected from
-Sysmon</b>{=html}
-{=html}
+<b>Figure 6 --- Linux endpoint telemetry collected from
+Sysmon</b>
 </p>
 
 **What this proves:** The Linux endpoint was generating detailed
@@ -341,18 +329,16 @@ such as:
 
 ### Evidence --- Linux FIM Configuration
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/07-linux-fim-config.jpg" alt="Linux FIM Configuration" width="950">{=html}
-{=html}
+<img src="screenshots/07-linux-fim-config.jpg" alt="Linux FIM Configuration" width="950">
+
 </p>
 
-{=html}
 <p align="center">
 
-<b>{=html}Figure 7 --- Linux Syscheck/FIM configuration</b>{=html}
-{=html}
+<b>Figure 7 --- Linux Syscheck/FIM configuration</b>
 </p>
 
 **What this proves:** File Integrity Monitoring was enabled and
@@ -372,18 +358,16 @@ C:\CompanyData
 
 ### Evidence --- Windows FIM Configuration
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/06-windows-fim-config.jpg" alt="Windows FIM Configuration" width="950">{=html}
-{=html}
+<img src="screenshots/06-windows-fim-config.jpg" alt="Windows FIM Configuration" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 8 --- Windows Syscheck/FIM configuration</b>{=html}
-{=html}
+<b>Figure 8 --- Windows Syscheck/FIM configuration</b>
 </p>
 
 **What this proves:** Windows directories and selected system locations
@@ -407,19 +391,16 @@ The monitored agents included `Dev_windows` and `ari_linux`.
 
 ### Evidence --- Wazuh FIM Dashboard
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/08-fim-dashboard.jpg" alt="Wazuh File Integrity Monitoring Dashboard" width="950">{=html}
-{=html}
+<img src="screenshots/08-fim-dashboard.jpg" alt="Wazuh File Integrity Monitoring Dashboard" width="950">
 </p>
 
-{=html}
 <p align="center">
 
-<b>{=html}Figure 9 --- Wazuh File Integrity Monitoring
-dashboard</b>{=html}
-{=html}
+<b>Figure 9 --- Wazuh File Integrity Monitoring
+dashboard</b>
 </p>
 
 **What this proves:** FIM events were reaching Wazuh and could be
@@ -439,19 +420,17 @@ The rules demonstrate detection engineering for:
 
 ### Evidence --- Custom Rules in `local_rules.xml`
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/09-custom-rules-file.jpg" alt="Custom Wazuh Rules File" width="950">{=html}
-{=html}
+<img src="screenshots/09-custom-rules-file.jpg" alt="Custom Wazuh Rules File" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 10 --- Custom Wazuh rules configured in
-local_rules.xml</b>{=html}
-{=html}
+<b>Figure 10 --- Custom Wazuh rules configured in
+local_rules.xml</b>
 </p>
 
 **What this proves:** Custom detection logic was written and added to
@@ -521,19 +500,17 @@ Default Accounts**.
 
 ### Evidence --- Windows Custom Detection Rule
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/10-custom-rules-windows.jpg" alt="Windows Custom Wazuh Rule" width="950">{=html}
-{=html}
+<img src="screenshots/10-custom-rules-windows.jpg" alt="Windows Custom Wazuh Rule" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 11 --- Windows Guest account detection
-rule</b>{=html}
-{=html}
+<b>Figure 11 --- Windows Guest account detection
+rule</b>
 </p>
 
 **What this proves:** A Windows security event was mapped to custom
@@ -554,19 +531,17 @@ into the environment.
 
 ### Evidence --- Rules Overview
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/11-rules-overview.jpg" alt="Wazuh Rules Overview" width="950">{=html}
-{=html}
+<img src="screenshots/11-rules-overview.jpg" alt="Wazuh Rules Overview" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 12 --- Custom rules loaded in the Wazuh Rules
-interface</b>{=html}
-{=html}
+<b>Figure 12 --- Custom rules loaded in the Wazuh Rules
+interface</b>
 </p>
 
 **What this proves:** The custom detection rules were successfully
@@ -592,19 +567,17 @@ The alert interface provided information such as:
 
 ### Evidence --- Wazuh Alerts
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/14-alerts.jpg" alt="Wazuh Alerts" width="950">{=html}
-{=html}
+<img src="screenshots/14-alerts.jpg" alt="Wazuh Alerts" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 13 --- Security alerts visible in the Wazuh alert
-index</b>{=html}
-{=html}
+<b>Figure 13 --- Security alerts visible in the Wazuh alert
+index</b>
 </p>
 
 **What this proves:** Endpoint events were successfully processed into
@@ -629,19 +602,17 @@ The investigation view exposed detailed event fields including:
 
 ### Evidence --- Wazuh Discover Investigation
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/12-discover-alert.jpg" alt="Wazuh Discover Investigation" width="950">{=html}
-{=html}
+<img src="screenshots/12-discover-alert.jpg" alt="Wazuh Discover Investigation" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 14 --- Detailed alert investigation in Wazuh
-Discover</b>{=html}
-{=html}
+<b>Figure 14 --- Detailed alert investigation in Wazuh
+Discover</b>
 </p>
 
 **What this proves:** A SOC analyst can move from a high-level alert
@@ -697,19 +668,17 @@ The dashboard included visualizations for:
 
 ### Evidence --- Custom SOC Dashboard
 
-{=html}
+
 <p align="center">
 
-<img src="screenshots/13-soc-dashboard.jpg" alt="Custom SOC Dashboard" width="950">{=html}
-{=html}
+<img src="screenshots/13-soc-dashboard.jpg" alt="Custom SOC Dashboard" width="950">
 </p>
 
-{=html}
+
 <p align="center">
 
-<b>{=html}Figure 15 --- Ari-Basic SOC Activity Overview
-dashboard</b>{=html}
-{=html}
+<b>Figure 15 --- Ari-Basic SOC Activity Overview
+dashboard</b>
 </p>
 
 **What this proves:** Security events from the monitored endpoints were
