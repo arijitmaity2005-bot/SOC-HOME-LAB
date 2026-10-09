@@ -637,6 +637,17 @@ The event indicated that a host was blocked using the firewall-drop
 Active Response mechanism.
 
 ### Evidence --- Detection to Response
+<p align="center">
+
+<img src="screenshots/14-alerts.jpg" alt="Wazuh Alerts" width="950">
+</p>
+
+
+<p align="center">
+
+<b>Figure 13 --- Security alerts visible in the Wazuh alert
+index</b>
+</p>
 
 The Active Response information is visible in the Wazuh Discover
 investigation shown above in **Figure 14**.
