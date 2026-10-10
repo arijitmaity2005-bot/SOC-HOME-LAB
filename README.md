@@ -570,7 +570,7 @@ The alert interface provided information such as:
 
 <p align="center">
 
-<img src="screenshots/14-alerts.jpg" alt="Wazuh Alerts" width="950">
+<img src="screenshots/data_logs.png" alt="Wazuh Alerts" width="950">
 </p>
 
 
@@ -820,17 +820,6 @@ This project demonstrates practical experience with:
 # 19. Security Notes
 
 This project was created in an isolated home-lab environment.
-
-Before publishing the repository publicly, ensure that you do not
-commit:
-
--   Passwords
--   API keys
--   Private keys
--   Authentication tokens
--   Sensitive configuration files
--   Production IP addresses
--   Personal credentials
 
 The screenshots in this repository are intended as documentation of the
 lab environment.
